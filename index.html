@@ -19,6 +19,7 @@
       background-color: #F8F8F8;
       margin-left:calc((100% - 800px) / 2);
       display: inline-block;
+      color: #9E9E9E;
    }
    header {
       display: inline-block;
@@ -27,7 +28,6 @@
    }
    img {
       float: left;
-      height:50px;
    }
    nav {
       float: right; 
@@ -48,7 +48,7 @@
 <body>
    <main>
       <header>
-         <img src="./logo.png" alt="Logotipas">
+         <img src="./logo.png" alt="Logotipas" height="50px;">
          <nav>
             <a href="#" style="margin-left:0;">Home</a>
             <a href="#">Tracks</a>
@@ -58,11 +58,22 @@
          </nav>
       </header>
       <section>
-         <div>
-            <h1>404</h1>
-            <p>The link is broken or the page is removed.</p>
+         <div style= "display:inline-block;
+                     float: left;
+                     width: 35%;
+                     text-align: left;
+                     margin-left: 5%;
+                     margin-right:10%;">
+            <h1 style= "font-size:80px;
+                        line-height:80px;
+                        font-family: Monaco, Inconsolata, Consolas, 'Gil sans';
+                        font-weight: lighter;
+                        margin-bottom: 10px;"
+            >404</h1>
+            <p style="font-size:25px;
+                     margin-top:0;">The link is broken or the page is removed.</p>
          </div>
-         <img src="#" alt="Mergaite su liudnu veideliu">
+         <img src="./mergaite.png" alt="Mergaite su liudnu veideliu" width="45%">
       </section>
    </main>
 </body>
