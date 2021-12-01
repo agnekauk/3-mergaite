@@ -9,14 +9,13 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#F8F8F8">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 <style> 
    body {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
    main {
       width: 800px;
-      background-color: #F8F8F8;
       margin-left:calc((100% - 800px) / 2);
       display: inline-block;
       color: #9E9E9E;
@@ -26,8 +25,9 @@
       width: 100%;
       margin-top: 20px;
    }
-   img {
+   header>img {
       float: left;
+      height: 50px;
    }
    nav {
       float: right; 
@@ -42,13 +42,37 @@
    }
    a:hover {color: #7bb258;
    }
+   section {display: inline-block;
+      width: 100%;
+      margin-top: 30px;
+   }
+   div {display:inline-block;
+      float: left;
+      width: 40%;
+      margin-top: 40px;
+      margin-left: 5%;
+      margin-right: 5%;
+   }
+   h1 {font-size:80px;
+      font-family: Monaco, Inconsolata, Consolas, 'Gil sans';
+      font-weight: lighter;
+      margin: 0;
+   }
+   p {font-size:25px;
+      margin:0;"
+   }
+   section>img {float: right;
+               width: 40%;
+               margin-left: 5%;
+               margin-right: 5%;
+   }
 </style>
 
 </head>
 <body>
    <main>
       <header>
-         <img src="./logo.png" alt="Logotipas" height="50px;">
+         <img src="./logo.png" alt="Logotipas">
          <nav>
             <a href="#" style="margin-left:0;">Home</a>
             <a href="#">Tracks</a>
@@ -58,22 +82,11 @@
          </nav>
       </header>
       <section>
-         <div style= "display:inline-block;
-                     float: left;
-                     width: 35%;
-                     text-align: left;
-                     margin-left: 5%;
-                     margin-right:10%;">
-            <h1 style= "font-size:80px;
-                        line-height:80px;
-                        font-family: Monaco, Inconsolata, Consolas, 'Gil sans';
-                        font-weight: lighter;
-                        margin-bottom: 10px;"
-            >404</h1>
-            <p style="font-size:25px;
-                     margin-top:0;">The link is broken or the page is removed.</p>
+         <div>
+            <h1>404</h1>
+            <p>The link is broken or the page is removed.</p>
          </div>
-         <img src="./mergaite.png" alt="Mergaite su liudnu veideliu" width="45%">
+         <img src="./mergaite.png" alt="Mergaite su liudnu veideliu">
       </section>
    </main>
 </body>
