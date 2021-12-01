@@ -9,7 +9,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#F8F8F8">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#7bb258">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 <style> 
@@ -31,16 +31,22 @@
    }
    nav {
       float: right; 
-      margin-top: 15px;
+      margin-top: 5px;
    }
-   a {
+   a {display: inline-block;
+      float:left;
       text-decoration: none;
       color: #9E9E9E;
       font-size: 20px;
       line-height: 20px;
-      margin-left:30px;
+      padding: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border: 3px solid transparent;
+      border-radius: 18px;
    }
    a:hover {color: #7bb258;
+            text-decoration:underline;
    }
    section {display: inline-block;
       width: 100%;
@@ -78,7 +84,7 @@
             <a href="#">Tracks</a>
             <a href="#">Library</a>
             <a href="#">Community</a>
-            <a href="#">Sign in</a>
+            <a href="#" style="border-color: #9E9E9E; text-transform: uppercase; margin-left: 40px;">Sign in</a>
          </nav>
       </header>
       <section>
